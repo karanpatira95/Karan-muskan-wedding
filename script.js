@@ -291,7 +291,7 @@ async function submitRSVP() {
   };
 
   try {
-    const res = await fetch('https://script.google.com/macros/s/AKfycbxr0hqTnlxyMzOuRDQcwSroY8ZgrxBCwIUkis4g__QzBND2NHrqurpeNiTcJgj2LVwA/exec', {
+    const res = await fetch('https://script.google.com/macros/s/AKfycbyzHyFvEmdu3v956oQFLatNL-exKS2pKiBVThrX7_6QjwosyIxzBZir3KOdFcnbkw6d/exec', {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(data)
