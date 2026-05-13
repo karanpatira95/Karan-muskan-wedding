@@ -287,11 +287,11 @@ async function submitRSVP() {
     guest_count: guests,
     transportation: transport,
     message: msg,
-    clientId: 'MuskanwedsKaran-wedding-2026'
+    clientId: 'KaranwedsMuskan-wedding-2026'
   };
 
   try {
-    const res = await fetch('https://script.google.com/macros/s/AKfycbwgmWNDMgviiOlG6goNFRz98fi8d1_z_HbC8IEQ0aGuRGHWL1lYDZSpAxWRtNllJdbSyA/exec', {
+    const res = await fetch('https://script.google.com/macros/s/AKfycbxr0hqTnlxyMzOuRDQcwSroY8ZgrxBCwIUkis4g__QzBND2NHrqurpeNiTcJgj2LVwA/exec', {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(data)
